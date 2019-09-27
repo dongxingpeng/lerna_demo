@@ -1,7 +1,6 @@
 {
   "name": "dxp_vue3_template",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
