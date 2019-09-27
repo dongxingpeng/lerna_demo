@@ -6,22 +6,20 @@
 ## 第三步 打包项目
     npm run build
 ### 目录结构
-├── README.md
-├── babel.config.js
-├── package-lock.json
-├── package.json
-├── postcss.config.js
-├── public
-│   ├── favicon.ico
-│   └── index.html
-├── src
-│   ├── App.vue
-│   ├── assets
-│   ├── components
-│   ├── main.js
-│   ├── router
-│   ├── store
-│   └── views
+├── README.md <br>
+├── babel.config.js <br>
+├── package-lock.json <br>
+├── package.json <br>
+├── postcss.config.js <br>
+├── public <br>
+│   ├── favicon.ico <br>
+│   └── index.html <br>
+├── src <br>
+│   ├── App.vue <br>
+│   ├── assets <br>
+│   ├── components <br>
+│   ├── main.js <br>
+│   ├── router <br>
+│   ├── store <br>
+│   └── views <br>
 └── vue.config.js
-
-7 directories, 10 files
