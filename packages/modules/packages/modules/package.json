@@ -1,11 +1,14 @@
 {
-  "name": "demo",
-  "version": "1.0.0",
-  "description": "> TODO: description",
+  "name": "modules",
+  "version": "0.0.1",
+  "description": "类库",
+  "keywords": [
+    "类库"
+  ],
   "author": "dongxingpeng <291785613@qq.com>",
   "homepage": "https://github.com/dongxingpeng/lerna_demo#readme",
   "license": "ISC",
-  "main": "lib/demo.js",
+  "main": "lib/modules.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
