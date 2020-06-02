@@ -1,11 +1,11 @@
-# `demo`
+# `modules`
 
 > TODO: description
 
 ## Usage
 
 ```
-const demo = require('demo');
+const modules = require('modules');
 
 // TODO: DEMONSTRATE API
 ```
