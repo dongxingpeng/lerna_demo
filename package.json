@@ -1,0 +1,40 @@
+{
+  "name": "lerna_demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "boot": "npm install && lerna bootstrap",
+    "dev": "cd script && node dev.js",
+    "dev:demo1": "cd packages/demo1 && npm run serve",
+    "dev:demo2": "cd packages/demo2 && npm run serve",
+    "build": "cd script && node build.js",
+    "build:demo1": "cd packages/demo1 && npm run build",
+    "build:demo2": "cd packages/demo2 && npm run build",
+    "publish": "lerna publish --skip-npm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dongxingpeng/lerna_demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dongxingpeng/lerna_demo/issues"
+  },
+  "homepage": "https://github.com/dongxingpeng/lerna_demo#readme",
+  "devDependencies": {
+    "lerna": "^3.22.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.43.0",
+    "webpack-bundle-analyzer": "^3.8.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.3",
+    "vue-property-decorator": "^8.4.2",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  }
+}
