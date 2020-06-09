@@ -6,7 +6,7 @@ import Api from 'lib_modules';
 import '@/api';
 import '@/config/env'
 Vue.config.productionTip = false;
-
+console.log(Api)
 new Vue({
   router,
   store,
